@@ -1,0 +1,51 @@
+
+.myHeader h1 {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}
+
+.myButton, .myButton:focus{
+    margin: 10px 10px;
+    width: 150px;
+    min-width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0057ab;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.myButton:hover {
+    background-color: #0072e1;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.ant-btn[disabled], .ant-btn[disabled]:hover{
+    background: #60839a !important;
+}
+
+h1.HeaderName{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 10px;
+}
+
+.schedules .switchButton{
+    position: absolute;
+    top: -80px;
+    right: 10px;
+    background-color: #6f9a60;
+}

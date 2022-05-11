@@ -1,0 +1,12 @@
+.layout{
+    height: 100vh;
+}
+
+.header-layout{
+    background-color: #003972;
+    height: 100px;
+}
+
+.content-layout{
+    background: white;
+}

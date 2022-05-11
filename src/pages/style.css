@@ -1,0 +1,181 @@
+.leftSide {
+  border-right: black solid 1px;
+}
+
+.competences .leaderList {
+  overflow: auto;
+  height: auto;
+  max-height: 78vh;
+}
+.competences .leaderListItem {
+  padding: 10px;
+  cursor: pointer;
+}
+.competences .SelectLeader {
+  position: fixed;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+}
+.competences .header {
+  font-size: 20px;
+  text-align: center;
+}
+.competences .rightSide {
+  text-align: left;
+  padding-left: 20px;
+}
+.competences .leftSide {
+  text-align: right;
+  padding-right: 20px;
+}
+.competences .listItem {
+  margin: 0;
+}
+.competences .listItem .moveButton {
+  margin: 5px 15px 5px 15px;
+}
+.competences .listItem .oneItem {
+  margin: 0;
+  font-size: 17px;
+}
+.competences .listItem .right {
+  text-align: left;
+}
+.competences .listItem .left {
+  text-align: right;
+}
+
+.schedules .scheduleList {
+  overflow: auto;
+  height: auto;
+  max-height: 78vh;
+}
+.schedules .generateNew {
+  height: 100px;
+}
+.schedules .scheduleListItem {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.schedules .timeCount {
+  text-align: center;
+}
+.schedules .timeCount button {
+  border-radius: 10px;
+  background: #63b1ff;
+  font-size: 20px;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+}
+.schedules .timeCount button:hover {
+  color: #fff;
+  font-weight: 900;
+}
+.schedules .timeCount .number {
+  margin: 0 15px;
+  font-size: 20px;
+}
+.schedules .tableStyle {
+  margin: 4px;
+}
+.schedules .tableStyle .ant-table-body .ant-table-cell {
+  border: #3f3f3f solid 1px;
+  padding: 1px;
+}
+.schedules .tableStyle .ant-table-header .ant-table-cell {
+  width: 200px;
+}
+.schedules .scheduleItem {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+.schedules .scrollingBox {
+  overflow: auto;
+  max-width: 85vw;
+  max-height: 90vh;
+}
+.schedules .scheduleTable .selectedItem {
+  border: rgb(0, 42, 255) solid 3px !important;
+  padding: 2px;
+}
+.schedules .scheduleTable th {
+  min-width: 200px;
+  height: 80px;
+  padding: 1px;
+  background: #d5d5d5;
+}
+.schedules .scheduleTable td {
+  text-align: center;
+}
+.schedules .scheduleTable th, .schedules .scheduleTable td {
+  border: 1px solid #000;
+  padding: 2px;
+}
+
+.ant-col {
+  max-height: 90vh;
+}
+
+span.timeSpan {
+  float: left;
+  margin: 5px 5px 5px 15px;
+  font-size: 20px;
+}
+
+.Participants {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Participants .addParticipant {
+  width: 300px;
+}
+.Participants .participantTable {
+  max-width: 90vw;
+  min-width: 70vw;
+  border: black solid 1px;
+  margin-bottom: 25px;
+}
+
+.Leaders {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Leaders .addLeader {
+  width: 300px;
+}
+.Leaders .leaderTable {
+  max-width: 90vw;
+  min-width: 70vw;
+  border: black solid 1px;
+  margin-bottom: 25px;
+}
+
+.icon {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.table-row-light:hover td, .table-row-dark:hover td {
+  background: rgba(255, 255, 255, 0) !important;
+}
+
+.table-row-light {
+  background-color: rgba(119, 154, 243, 0.2);
+}
+
+.table-row-dark {
+  background-color: rgba(144, 165, 213, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */
